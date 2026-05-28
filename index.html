@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de confidentialité — AuthorScale</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Epilogue:wght@300;400;500&display=swap');
+
+:root {
+  --bg:     #0e0c0a;
+  --bg2:    #181614;
+  --border: #332e29;
+  --text:   #f0ebe3;
+  --text2:  #b8b0a4;
+  --text3:  #7a7168;
+  --gold:   #e8c97a;
+  --gold2:  #c8a96e;
+  --w: 680px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--text); font-family: 'Epilogue', sans-serif; font-size: 16px; line-height: 1.7; min-height: 100vh; -webkit-font-smoothing: antialiased; }
+
+/* HEADER */
+.hdr { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(14,12,10,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 14px 40px; display: flex; align-items: center; justify-content: space-between; }
+.hdr-brand { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 600; letter-spacing: 0.04em; color: var(--text); text-decoration: none; }
+.hdr-link { font-size: 13px; color: var(--text3); text-decoration: none; letter-spacing: 0.04em; }
+.hdr-link:hover { color: var(--gold); }
+
+/* CONTENT */
+main { max-width: var(--w); margin: 0 auto; padding: 120px 40px 100px; }
+
+.eyebrow { font-size: 11px; letter-spacing: 0.18em; color: var(--gold); margin-bottom: 24px; display: flex; align-items: center; gap: 12px; }
+.eyebrow::before { content: ''; display: block; width: 32px; height: 1px; background: var(--gold2); }
+
+h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 5vw, 52px); line-height: 1.1; font-weight: 600; margin-bottom: 12px; }
+h1 em { font-style: italic; color: var(--gold); }
+
+.update { font-size: 13px; color: var(--text3); margin-bottom: 52px; font-style: italic; }
+
+.section { margin-bottom: 44px; padding-bottom: 44px; border-bottom: 1px solid var(--border); }
+.section:last-child { border-bottom: none; }
+
+h2 { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 600; color: var(--text); margin-bottom: 16px; }
+
+p { font-size: 15px; color: var(--text2); font-weight: 300; margin-bottom: 14px; line-height: 1.75; }
+p:last-child { margin-bottom: 0; }
+
+ul { padding-left: 20px; margin-bottom: 14px; }
+li { font-size: 15px; color: var(--text2); font-weight: 300; line-height: 1.75; margin-bottom: 6px; }
+
+a { color: var(--gold); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.contact-box { background: var(--bg2); border: 1px solid var(--border); border-left: 3px solid var(--gold2); border-radius: 2px; padding: 20px 24px; margin-top: 20px; }
+.contact-box p { margin-bottom: 4px; }
+
+/* FOOTER */
+footer { border-top: 1px solid var(--border); padding: 32px 40px; text-align: center; font-size: 12px; color: var(--text3); }
+footer a { color: var(--text3); }
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <a class="hdr-brand" href="https://authorscale.fr">AuthorScale</a>
+  <a class="hdr-link" href="https://authorscale.fr">← Retour au site</a>
+</header>
+
+<main>
+  <div class="eyebrow">Mentions légales</div>
+  <h1>Politique de<br><em>confidentialité</em></h1>
+  <p class="update">Dernière mise à jour : mai 2026</p>
+
+  <div class="section">
+    <h2>Responsable du traitement</h2>
+    <p>AuthorScale — SIRET 810 658 658 00036<br>
+    Arnaud Chedeville, 83 Avenue de Portes, 33450 Izon, France<br>
+    Contact : <a href="mailto:contact@authorscale.fr">contact@authorscale.fr</a></p>
+  </div>
+
+  <div class="section">
+    <h2>Données collectées</h2>
+    <p>Dans le cadre de nos prestations de ghostwriting LinkedIn, nous collectons les données suivantes :</p>
+    <ul>
+      <li>Identité (nom, prénom, email, entreprise)</li>
+      <li>Informations professionnelles (parcours, expertise, positionnement)</li>
+      <li>Textes existants (posts LinkedIn, emails, prises de parole) fournis pour l'analyse de voix</li>
+      <li>Données de paiement (traitées exclusivement par Stripe — nous n'avons pas accès aux données bancaires)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Finalité du traitement</h2>
+    <p>Vos données sont utilisées exclusivement pour :</p>
+    <ul>
+      <li>Analyser votre voix éditoriale et produire votre profil éditorial</li>
+      <li>Rédiger vos contenus LinkedIn conformément à votre stratégie</li>
+      <li>Vous contacter dans le cadre de la prestation</li>
+      <li>Facturer et suivre votre abonnement</li>
+    </ul>
+    <p>Vos données ne sont jamais utilisées à des fins commerciales tierces, ni revendues.</p>
+  </div>
+
+  <div class="section">
+    <h2>Durée de conservation</h2>
+    <p>Vos données sont conservées pendant la durée de la prestation et 12 mois après la fin de celle-ci, conformément aux obligations légales françaises.</p>
+    <p>À l'issue de cette période, vos données sont supprimées de nos systèmes.</p>
+  </div>
+
+  <div class="section">
+    <h2>Partage des données</h2>
+    <p>Vos données ne sont jamais transmises à des tiers, à l'exception des sous-traitants strictement nécessaires à la prestation :</p>
+    <ul>
+      <li><strong>Stripe</strong> — traitement des paiements (politique de confidentialité : <a href="https://stripe.com/fr/privacy" target="_blank">stripe.com/fr/privacy</a>)</li>
+      <li>Nos outils internes de production et de stockage, conformes au RGPD.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Vos droits</h2>
+    <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+    <ul>
+      <li>Droit d'accès à vos données</li>
+      <li>Droit de rectification</li>
+      <li>Droit à l'effacement ("droit à l'oubli")</li>
+      <li>Droit à la portabilité</li>
+      <li>Droit d'opposition au traitement</li>
+    </ul>
+    <div class="contact-box">
+      <p>Pour exercer vos droits, contactez-nous à :</p>
+      <p><a href="mailto:contact@authorscale.fr">contact@authorscale.fr</a></p>
+      <p style="margin-top:8px;font-size:13px;color:var(--text3)">Nous répondons sous 30 jours maximum.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Cookies</h2>
+    <p>Notre site n'utilise pas de cookies de tracking ou publicitaires. Seuls des cookies techniques strictement nécessaires au fonctionnement du site peuvent être utilisés.</p>
+  </div>
+
+  <div class="section">
+    <h2>Contact & réclamations</h2>
+    <p>Pour toute question relative à cette politique ou pour exercer vos droits, contactez-nous à <a href="mailto:contact@authorscale.fr">contact@authorscale.fr</a>.</p>
+    <p>Vous pouvez également adresser une réclamation à la <strong>CNIL</strong> : <a href="https://www.cnil.fr" target="_blank">cnil.fr</a></p>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 AuthorScale — SIRET 810 658 658 00036 — <a href="https://cgv.authorscale.fr">CGV</a> — <a href="mailto:contact@authorscale.fr">contact@authorscale.fr</a></p>
+</footer>
+
+</body>
+</html>
